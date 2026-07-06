@@ -1,11 +1,4 @@
 name: Post welcome comment
- welcome-workflow
-on:
-  pull_request:
-    types: [opened]
-permissions:
-  pull-requests: write
-
 
 on:
   pull_request:
@@ -14,7 +7,6 @@ on:
 permissions:
   pull-requests: write
 
- main
 jobs:
   welcome:
     name: Post welcome comment
